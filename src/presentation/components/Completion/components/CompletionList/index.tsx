@@ -19,7 +19,9 @@ export const CompletionList: FC<CompletionListProps> = ({ verification }) => {
             <FaTimes color={theme.color.red.default} />
           )}
           <Styled.ProgressItemTitle>{value.name}</Styled.ProgressItemTitle>
-          <Styled.ProgressItemDesc>{value.desc}</Styled.ProgressItemDesc>
+          <Styled.ProgressItemDesc color={theme.color.medium.shade}>
+            {value.desc}
+          </Styled.ProgressItemDesc>
         </Styled.ProgressItem>
       ))}
     </Styled.ProgressContainer>

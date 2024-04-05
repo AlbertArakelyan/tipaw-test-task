@@ -33,6 +33,7 @@ export const StatusCongrats = styled.div`
 
 export const StatusCongratsInfo = styled.div`
   font-size: 14px;
+  color: #63637e;
 `;
 
 export const ProgressWrapper = styled.div`
